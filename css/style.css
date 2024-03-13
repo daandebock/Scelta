@@ -1,0 +1,64 @@
+body {
+    background: #283078;
+    background: linear-gradient(315deg, rgba(40, 48, 120, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 168, 157, 1) 100%);
+    background-attachment: fixed;
+    color: whitesmoke;
+    font-family: sans-serif;
+
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+
+}
+
+.item {
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+
+    margin: 1rem;
+    display: flex;
+    grid-template-columns: 1fr 4fr;
+    transition: all ease-in-out 500ms;
+    justify-content: center;
+
+
+}
+
+.item:hover {
+    background-color: whitesmoke;
+
+
+
+
+}
+
+.item a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+
+
+
+    padding: 1rem;
+
+
+}
+
+.item a:hover {
+    color: #283078;
+}
+
+.item img {
+    max-width: 50px;
+}
